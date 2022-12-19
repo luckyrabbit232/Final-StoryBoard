@@ -22,23 +22,20 @@ function App() {
       <div className = "Header">
         <div className = "UpperHeader">
           <div className = "Logo">
-            <b> My Portfolio</b>
+             My Portfolio
           </div>
           <div className = "Menu">
             <div className = "Menu_Child">
-              <a href = "https://luckyrabbit232.github.io/Final-Portoflio/">
+              <a href = "https://luckyrabbit232.github.io/Final-Portoflio/" className = "Hyperlink">
                 Home
               </a>
             </div>
             <div className = "Menu_Child2">
-              <a href = "https://luckyrabbit232.github.io/Final-Portoflio/">
+              <a href = "https://luckyrabbit232.github.io/Final-Portoflio/" className = "Hyperlink">
                 About Me
               </a>
             </div>
           </div>
-        </div>
-        <div className = "LowerHeader">
-          <i>Home/Storyboard</i>
         </div>
       </div>
       <div className = "Introduction">
@@ -109,7 +106,7 @@ function App() {
           </div>
         </div>
         <div className = "Basic_TextBox">
-          <div className = "TextBox_Child">
+          <div className = "TextBoxGoal_Child">
             <p>
             The technical goals of this assignment are as follows:
             </p>
@@ -147,7 +144,7 @@ function App() {
             <div className = "Basic_ImageContainer">
               <img src = "./Images/Questionnaire.png" className = "Basic_Image1"></img>
             </div>
-            <div className = "TextBox_Child">
+            <div className = "TextBoxGoal_Child">
             <b>
             General Observations:            
             </b>
@@ -161,7 +158,7 @@ function App() {
               <li>However, during scheduling ,suers were noted to click on many buttons and backtrack to previous pages</li>
             </ul> 
             </div>
-            <div className = "TextBox_Child">
+            <div className = "TextBoxGoal_Child">
             <b>Survey Results:</b>
             <p>
             The survey results are outlined below:
