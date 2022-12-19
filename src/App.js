@@ -64,7 +64,7 @@ function App() {
         <div className = "Basic_TextBox">
           <div className = "TextBox_Child">
             <p>
-            In this assignment, we were tasked to create personas to understand the our 
+            In this assignment, we were tasked to create personas to understand our 
             target user and their needs. We had to choose a company and replicate what a 
             storyboard would look like for the target company and specifically its app. 
             I chose the MBTA since it is widely used by a large demographic, and is a simple service to use.
@@ -137,19 +137,20 @@ function App() {
         </div>
         <div className = "Basic_TextBox">
           <div className = "TextBox_Child">
-            <p>
+            <b>
             Creating the interview questions:
-            </p>
+            </b>
             <p>
             I first designed interview questions outlined below. These questions were then asked to 3 random users that tried using the app:
             </p>
+            </div>
             <div className = "Basic_ImageContainer">
               <img src = "./Images/Questionnaire.png" className = "Basic_Image1"></img>
             </div>
-            <div className = "indentation"></div>
-            <p>
+            <div className = "TextBox_Child">
+            <b>
             General Observations:            
-            </p>
+            </b>
             <p>
             Afterwards, general observations were made while the people used the application. The general observations are summarized below:
             </p>
@@ -159,8 +160,9 @@ function App() {
               <li>There were no signs of explicit frustration from any of the users while using the application</li>
               <li>However, during scheduling ,suers were noted to click on many buttons and backtrack to previous pages</li>
             </ul> 
-            <div className = "indentation"></div>
-            <p><b>Survey Results:</b></p>
+            </div>
+            <div className = "TextBox_Child">
+            <b>Survey Results:</b>
             <p>
             The survey results are outlined below:
             </p>
@@ -171,21 +173,24 @@ function App() {
               <li>2 users expressed their disappointment in using the scheduling app, indicating that it was “not intuitive” and “not easy to find specific times”</li>
               <li>All users indicated that the application was intuitive. All had no issues in regards to navigating through the ticketing section</li>
             </ul> 
-            <div className = "indentation"></div>
-            <p>Interactive components:</p>
+            </div>
+            <div className = "TextBox_Child">
+            <b>Interactive components:</b>
             <p>The interactive components of the app were re-created on Figma and analyzed. Several features of the app that were analyzed are shown below:</p> 
+            </div>
             <div className = "Basic_ImageContainer">
-              <img src = "./Images/Hifi.png" className = "Basic_Image1"></img>
+              <img src = "./Images/Hifi.png" className = "Basic_Image3"></img>
             </div>  
-            <div className = "indentation"></div>
-            <p>Archetypes:</p>
+            <div className = "TextBox_Child">
+            <b>Archetypes:</b>
             <p>Two types of persona archetypes are presented. The personas are provided with a brief description, then divided into 4 quadrants, 
               each depciting what a archetype would think, feel, say, and do.</p> 
+              </div>
             <div className = "Basic_ImageContainer">
-              <img src = "./Images/Archetypes.png" className = "Basic_Image1"></img>
+              <img src = "./Images/Archetypes.png" className = "Basic_Image4"></img>
             </div> 
-            <div className = "indentation"></div>
-            <p>Storyboard:</p>
+            <div className = "TextBox_Child">
+            <b>Storyboard:</b>
             <p>Finally, a persona (Rushing Ron) is chosen to be depicted on my storyboard comic to reflect the goal of the persona, and the journey of the persona in using the application to fulfil his goal.</p> 
             <div className = "Basic_ImageContainer">
               <img src = "./Images/Comic.png" className = "Basic_Image1"></img>
@@ -213,13 +218,11 @@ function App() {
             an understanding of their needs for the app. I understand the importance of developing 
             a well designed story, which can then be implmeneted into an intuitive app like MBTA.
             </p>
-            <div className = "indentation"></div>
             <p>
             I felt that my storyboard could be futher developed. For example, the comic could be more detailed 
             with larger typefont and better images. The archetypes could be more fleshed out to incorporate more 
             realistic ideas. Finally, I could interview more people to get a better sense of who uses the app. 
             </p>
-            <div className = "indentation"></div>
 
           </div>
         </div>
